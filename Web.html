@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>AE7</title>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="/Script1.php"></script>
+<script src ="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="/Script3.php"></script>
+</head>
+<body>
+<h1>Dogs</h1>
+<p>Raza del perro:</p>
+<p><input type="text" value="" id="strRaza">
+<button id="botonBusquedaPerro" onclick="getGroupInfo()">Buscar</button>
+<p>Imagen del perro:</p>
+</p>
+<img id="imagenPerro" src="" height="300" style="display:none;" />
+<p>Dog Fact:</p>
+<textarea id="strName" rows="4" style="width:50%"></textarea>
+<p><button id="botonGuardar" onclick="guardarInfo()">Guardar</button></p>
+</body>
+</html>
